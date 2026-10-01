@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "OmniVerse Hub",
+      "hasCanvas": false,
+      "bodyTextLen": 405,
+      "bodyTextHash": "b3b10c14f5034267971ec8b335a6bebd572777446cf7b998181a0668fb847109",
+      "bodyTextPrefix": "OmniVerse HUB YouTube Feed Live trending TikTok Reels Vertical s",
+      "horizontalOverflow": false,
+      "consoleErrors": [
+        "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s https://react.dev/link/hydration-mismatch \n\n  ...\n    <SafeFragment fallback={null}>\n      <CatchBoundary getResetKey={function getResetKey} errorComponent={function AppErrorComponent} ...>\n        <SafeFragment fallback={function fallback}>\n          <MatchInnerImpl match={{id:\"//\",ssr:true, ...}}>\n            <Lazy>\n              <Home>\n                <HubApp>\n                  <div className=\"relative f...\">\n                    <div>\n                    <Sidebar>\n                    <div className=\"flex min-w...\">\n                      <header className=\"glass stic...\">\n                        <Button>\n                        <div>\n                        <SearchForm>\n                          <form className=\"flex min-w...\" onSubmit={function onSubmit}>\n                            <div className=\"relative m...\">\n                              <Search>\n                              <Input name=\"q\" defaultValue=\"\" placeholder=\"Search You...\" className=\"h-11 round...\">\n                                <input\n                                  type=\"text\"\n                                  className=\"flex w-full border px-3 text-sm text-fg shadow-none outline-none transiti...\"\n                                  name=\"q\"\n                                  defaultValue=\"\"\n                                  placeholder=\"Search YouTube\"\n-                                 style={{caret-color:\"transparent\"}}\n                                >\n                            ...\n                      ...\n                    ...\n"
+      ],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "OmniVerse Hub",
+      "hasCanvas": false,
+      "bodyTextLen": 2652,
+      "bodyTextHash": "4ed7537066ef0b9daef56b03e85a00c52e178737b7c5b299a300c2a9addce832",
+      "bodyTextPrefix": "YouTube LIVE CATALOG YouTube Feed Trending right now in United S",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
